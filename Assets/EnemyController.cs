@@ -9,7 +9,7 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         for (int i=0; i<10; i++) {
-            GameObject prefab = Resources.Load<GameObject>("enemy_circle_1");
+            GameObject prefab = Resources.Load<GameObject>("EnemyCircle1");
             Instantiate(prefab);
         }
     }

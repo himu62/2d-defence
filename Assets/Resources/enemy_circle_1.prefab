@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 7041391280193948033}
   - component: {fileID: 7041391280193948038}
-  - component: {fileID: 7041391280193948032}
   - component: {fileID: 7041391280193948035}
   - component: {fileID: 8288610927865062645}
+  - component: {fileID: 6716224204169333747}
   m_Layer: 0
   m_Name: enemy_circle_1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85,18 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7041391280193948032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7041391280193948039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bc51a6729f700042b38ca7aada044cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &7041391280193948035
 Rigidbody2D:
   serializedVersion: 4
@@ -134,3 +122,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &6716224204169333747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7041391280193948039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e6602df8995144a9c901c6330141ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
